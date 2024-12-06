@@ -1,0 +1,37 @@
+.question-wrapper{
+    margin: 30px auto;
+    min-width: 250px;
+}
+
+.question{
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+.explanation{
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: rgb(102, 48, 48);
+    background: rgba(144, 238, 144,0.5);
+}
+
+.options{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+label{
+    display: block;
+    background-color: aliceblue;
+    padding:1rem;
+}
+
+
+label:hover{
+    background-color:rgb(206, 228, 241);
+}
+
+.radio-label:has(input:checked) {
+    background-color:rgb(190, 228, 242);
+}

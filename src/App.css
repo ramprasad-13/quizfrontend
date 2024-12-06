@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 30px;
+}
+
+form{
+    margin: 0 auto;
+    min-width: 250px;
+    max-width: 600px;
+}
+
+.button{
+    border: none;
+    padding: 15px 25px;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color: lightgray;
+}
+
+.noquestions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 10rem);
+    width: 100%;
+}
